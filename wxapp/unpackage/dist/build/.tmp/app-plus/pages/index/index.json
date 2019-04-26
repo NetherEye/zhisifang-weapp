@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "知四方",
+  "usingComponents": {
+    "van-tab": "/wxcomponents/vant-weapp/tab/index",
+    "van-tabs": "/wxcomponents/vant-weapp/tabs/index",
+    "wux-divider": "/wxcomponents/wux-weapp/divider/index",
+    "wux-skeleton": "/wxcomponents/wux-weapp/skeleton/index",
+    "wux-skeleton-paragraph": "/wxcomponents/wux-weapp/skeleton-paragraph/index"
+  },
+  "enablePullDownRefresh": true
+}

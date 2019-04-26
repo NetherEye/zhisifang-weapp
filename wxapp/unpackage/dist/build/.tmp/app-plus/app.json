@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/userInfoAuth/userInfoAuth",
+    "pages/scMapDetail/scMapDetail",
+    "pages/my/my",
+    "pages/tel/tel",
+    "pages/banner/banner"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "知四方",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "知四方"
+}

@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/userInfoAuth/userInfoAuth",
+    "pages/scMapDetail/scMapDetail",
+    "pages/my/my",
+    "pages/tel/tel",
+    "pages/banner/banner"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "知四方",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息将用于为您提供更好的服务"
+    }
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ]
+}

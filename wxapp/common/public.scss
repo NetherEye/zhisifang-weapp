@@ -1,0 +1,265 @@
+/* 景区 item css */
+.sc-list-item{
+	overflow: hidden;
+	width: 686upx;
+	background-color: #ffffff;
+	box-shadow: 3upx 5upx 20upx 2upx 
+		rgba(38, 38, 38, 0.19);
+	border-radius: 24upx;
+	margin-left: 24upx;
+	.sc-list-img{
+		height: 276upx;
+		border-top-left-radius: 24upx;
+		border-top-right-radius: 24upx;
+		position: relative;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+		
+		.info{
+			position: absolute;
+			left: 23upx;
+			bottom: 12upx;
+			text{
+				margin-right: 27upx;
+				color: #ffffff;
+				font-size: 25upx;
+			}
+		}
+		.sc-list-name{
+			position: absolute;
+			display: flex;
+			align-items: center;
+			left: 26upx;
+			bottom: 53upx;
+			text{
+				font-size: 35upx;
+				color: #ffffff;
+				font-weight: 500;
+			}
+		}
+		
+	}
+	
+	.pop{
+		overflow: hidden;
+		height: 57upx;
+		margin: 0 20upx;
+		margin-top: 14upx;
+		display: inline-block;
+		padding: 0 14upx;
+		background-image: linear-gradient(75deg, 
+			#fe6060 2%, 
+			#ffbd70 100%), 
+		linear-gradient(
+			#282e33, 
+			#282e33);
+		background-blend-mode: normal, 
+			normal;
+		border-radius: 24upx;
+		image{
+			overflow: hidden;
+			width: 33upx;
+			height: 38upx;
+			margin-right: 7upx;
+			margin-bottom: 8upx;
+		}
+		
+		.pop-text{
+			display: inline-block;
+			height: 100%;
+			line-height: 57upx;
+			overflow: hidden;
+			text{
+				font-size: 28upx;
+				color: #ffffff;
+			}
+		}
+	}
+	
+	.sc-list-site{
+		display: flex;
+		overflow: hidden;
+		margin: 0 26upx;
+		margin-top: 14upx;
+		text{
+			flex: 1;
+			display: block;
+			width: 600upx;
+			font-size: 28upx;
+			color: #ababab;
+		}
+		image{
+			width: 28upx;
+			height: 33upx;
+			margin-right: 12upx;
+		}
+	}
+	
+	.sc-list-info{
+		display: flex;
+		align-items: center;
+		text-align: left;
+		margin: 0 26upx;
+		margin-top: 14upx;
+		text{
+			font-size: 35upx;
+			color: #333333;
+		}
+	}
+}
+
+// list-card 2
+.sc-list-item2{
+	overflow: hidden;
+	width: 686upx;
+	height: 386upx;
+	background-color: #ffffff;
+	box-shadow: 3upx 5upx 20upx 2upx 
+		rgba(38, 38, 38, 0.19);
+	border-radius: 24upx;
+	
+	// margin-left: 24upx;
+	
+	.sc-list-img{
+		width: 686upx;
+		height: 386upx;
+		border-radius: 24upx;
+		position: relative;
+		image{
+			border-radius: 24upx;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.bf{
+			width: 66upx;
+			height: 66upx;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		
+		.info{
+			position: absolute;
+			left: 23upx;
+			bottom: 28upx;
+			text{
+				margin-right: 30upx;
+				color: #ffffff;
+				font-size: 24upx;
+			}
+		}
+		.sc-list-name{
+			position: absolute;
+			left: 22upx;
+			right: 22upx;
+			bottom: 126upx;
+			text{
+				font-size: 30upx;
+				color: #ffffff;
+				font-weight: 500;
+			}
+		}
+		
+		.sc-list-site{
+			position: absolute;
+			display: flex;
+			align-items: center;
+			left: 23upx;
+			bottom: 77upx;
+			text{
+				font-size: 28upx;
+				color: #ffffff;
+				width: 600upx;
+			}
+			image{
+				width: 20upx;
+				height: 24upx;
+				margin-right: 10upx;
+			}
+		}
+		
+		.sc-list-info{
+			position: absolute;
+			top: 23upx;
+			right: -20upx;
+			height: 61upx;
+			border-radius: 31upx;
+			padding-left: 20upx;
+			text-align: center;
+			line-height: 61upx;
+			padding-right: 30upx;
+			max-width: 90%;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
+			color: #ffffff;
+			.sc-list-info-opc{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 31upx;
+				background-color: #ffffff;
+				opacity: 0.1;
+			}
+			text{
+				font-size: 30upx;
+				color: #ffffff;
+			}
+		}
+		
+	}
+	
+	
+}
+
+// 抽离出来作为公共tag
+.sc-list-tag{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 24upx;
+	padding-top: 14upx;
+	text{
+		min-width: 105upx;
+		height: 46upx;
+		background-color: #f0f0f0;
+		border-radius: 10upx;
+		padding: 0 10upx;
+		overflow: hidden;
+		font-size: 24upx;
+		margin-right: 17upx;
+		color: #999999;
+		text-align: center;
+		line-height: 46upx;
+		margin-bottom: 14upx;
+		max-width: 240upx;
+		white-space: nowrap;
+		text-overflow:ellipsis;
+	}
+}
+
+// 隐藏滚动条
+::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+
+.m-loadMore{
+	text-align: center;
+	line-height: 60upx;
+}
+
+.els{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

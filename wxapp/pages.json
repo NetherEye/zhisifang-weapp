@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "知四方",
+				"usingComponents": {
+					"van-tab": "/wxcomponents/vant-weapp/tab/index",
+					"van-tabs": "/wxcomponents/vant-weapp/tabs/index",
+					"wux-divider": "/wxcomponents/wux-weapp/divider/index",
+					"wux-skeleton": "/wxcomponents/wux-weapp/skeleton/index",
+					"wux-skeleton-avatar": "/wxcomponents/wux-weapp/skeleton-avatar/index",
+					"wux-skeleton-paragraph": "/wxcomponents/wux-weapp/skeleton-paragraph/index",
+					"wux-row": "/wxcomponents/wux-weapp/row/index",
+					"wux-col": "/wxcomponents/wux-weapp/col/index"
+                },
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "知四方",
+				"usingComponents": {
+					
+		        }
+			}
+		},
+		{
+			"path": "pages/userInfoAuth/userInfoAuth",
+			"style": {
+				"navigationBarTitleText": "微信用户信息授权",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/scMapDetail/scMapDetail",
+			"style": {
+				"navigationBarTitleText": "知四方",
+				"usingComponents": {
+					"van-popup": "/wxcomponents/vant-weapp/popup/index"
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "知四方",
+				"usingComponents": {
+					
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tel/tel",
+			"style": {
+				"navigationBarTitleText": "知四方",
+				"usingComponents": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/banner/banner",
+			"style": {
+				"navigationBarTitleText": "知四方",
+				"usingComponents": {
+					
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "知四方",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}

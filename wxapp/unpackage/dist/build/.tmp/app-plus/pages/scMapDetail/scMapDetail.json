@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "知四方",
+  "usingComponents": {
+    "van-popup": "/wxcomponents/vant-weapp/popup/index"
+  }
+}

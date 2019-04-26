@@ -1,0 +1,2 @@
+<import src="./scMapDetail.vue.wxml" />
+    <template is="15b6f680" data="{{ ...$root['0'], $root }}"/>
